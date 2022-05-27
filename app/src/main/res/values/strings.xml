@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Enovo_FranciscoDuarte_ESTAGIO_2022</string>
+    <string name="ol">Olá!</string>
+    <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="sua_password">Sua password</string>
+    <string name="criar_conta">Criar conta</string>
+    <string name="exemplo_gmail_com">exemplo@gmail.com</string>
+    <string name="mensagens">Mensagens</string>
+    <string name="adicionar">+ Adicionar</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_praesent_interdum_viverra_nulla_eget_tristique_donec_et_hendrerit_lorem_in_hac_habitasse_platea_dictumst_donec_ac_elementum_elit_nec_ullamcorper_purus_praesent_gravida_iaculis_interdum_donec_condimentum_vehicula_ligula_ac_elementum_nunc_sollicitudin_quis_nisi_at_commodo_maecenas_eleifend_neque_vel_augue_pretium_scelerisque_id_a_nisi_etiam_fermentum_porta_leo_phasellus_pharetra_lectus_urna_faucibus_pellentesque_odio_commodo_eget_in_hac_habitasse_platea_dictumst_nullam_eleifend_dolor_sit_amet_elit_facilisis_maximus_sed_fringilla_placerat_imperdiet_sed_eleifend_eleifend_quam_nec_pulvinar_aliquam_purus_neque_tempus_id_dapibus_ac_viverra_in_turpis_quisque_sapien_purus_aliquam_vel_felis_in_pretium_sodales_libero_lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_pellentesque_habitant_morbi_tristique_senectus_et_netus_et_malesuada_fames_ac_turpis_egestas_nulla_imperdiet_aliquam_ullamcorper_phasellus_eget_ultricies_lectus_etiam_rutrum_accumsan_sem_a_tempor_nulla_eu_tellus_vel_libero_interdum_consectetur_ac_et_urna_ut_quis_risus_et_diam_mattis_convallis_a_non_ligula_vestibulum_et_velit_faucibus_fringilla_magna_quis_ultrices_turpis_pellentesque_ut_pellentesque_nulla_proin_sit_amet_euismod_ipsum_suspendisse_potenti_suspendisse_ultrices_ultricies_urna_duis_sed_libero_dapibus_massa_pulvinar_volutpat_eu_ac_quam_aliquam_tincidunt_vestibulum_neque_et_elementum_lectus_vestibulum_eget_ligula_ut_felis_rhoncus_viverra_vel_non_mauris_integer_est_est_ullamcorper_id_tempor_quis_ullamcorper_id_ante_pellentesque_tincidunt_mauris_elementum_dictum_sodales">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum viverra nulla eget tristique. Donec et hendrerit lorem. In hac habitasse platea dictumst. Donec ac elementum elit, nec ullamcorper purus. Praesent gravida iaculis interdum. Donec condimentum vehicula ligula ac elementum. Nunc sollicitudin quis nisi at commodo. Maecenas eleifend neque vel augue pretium scelerisque id a nisi. Etiam fermentum porta leo. Phasellus pharetra lectus urna, faucibus pellentesque odio commodo eget. In hac habitasse platea dictumst. Nullam eleifend dolor sit amet elit facilisis maximus. Sed fringilla placerat imperdiet. Sed eleifend eleifend quam nec pulvinar. Aliquam purus neque, tempus id dapibus ac, viverra in turpis. Quisque sapien purus, aliquam vel felis in, pretium sodales libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla imperdiet aliquam ullamcorper. Phasellus eget ultricies lectus. Etiam rutrum accumsan sem a tempor. Nulla eu tellus vel libero interdum consectetur ac et urna. Ut quis risus et diam mattis convallis a non ligula. Vestibulum et velit faucibus, fringilla magna quis, ultrices turpis. Pellentesque ut pellentesque nulla. Proin sit amet euismod ipsum. Suspendisse potenti. Suspendisse ultrices ultricies urna. Duis sed libero dapibus massa pulvinar volutpat eu ac quam. Aliquam tincidunt vestibulum neque, et elementum lectus. Vestibulum eget ligula ut felis rhoncus viverra vel non mauris. Integer est est, ullamcorper id tempor quis, ullamcorper id ante. Pellentesque tincidunt mauris elementum dictum sodales.</string>
+    <string name="nome1">Nome1</string>
+    <string name="textview">TextView</string>
+    <string name="textviewa">TextView</string>
+    <string name="name">Name</string>
+    <string name="aa"><![CDATA[<]]></string>
+    <string name="enviar">Enviar</string>
+    <string name="v">V</string>
+    <string name="nome">Nome</string>
+    <string name="adicionar_contactos">Adicionar contactos</string>
+    <string name="ad">TextView</string>
+    <string name="guardar_altera_es">Guardar alterações</string>
+    <string name="editar_dados">Editar dados</string>
+    <string name="seja_bem_vindo">Seja bem-vindo</string>
+    <string name="email">Email</string>
+</resources>
