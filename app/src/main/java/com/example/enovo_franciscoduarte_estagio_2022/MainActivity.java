@@ -11,22 +11,37 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText txtEmail, txtPassword;
+    Button loginBt, btnCriarConta;
+    Intent mensagens, irCriarConta;
+
+    SharedPreferences pref;
+
+    String email, password;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText txtEmail = findViewById(R.id.emailTextBox);
-        EditText txtPassword = findViewById(R.id.textPassword);
-        Button loginBt = findViewById(R.id.btnLogin);
+        txtEmail = findViewById(R.id.emailTextBox);
+        txtPassword = findViewById(R.id.textPassword);
+        loginBt = findViewById(R.id.btnLogin);
 
-        SharedPreferences pref = getSharedPreferences("user_details",MODE_PRIVATE);
+        pref = getSharedPreferences("user_details",MODE_PRIVATE);
 
-        Intent mensagens = new Intent(MainActivity.this, MensagensActivity.class);
+        mensagens = new Intent(MainActivity.this, MensagensActivity.class);
+
+        btnCriarConta = findViewById(R.id.btnCriarConta);
+
+        btnCriarConta.setOnClickListener(v -> {
+            irCriarConta = new Intent(this, CriarConta.class);
+            startActivity(irCriarConta);
+        });
 
         loginBt.setOnClickListener(v -> {
-            String email = txtEmail.getText().toString();
-            String password = txtPassword.getText().toString();
+            email = txtEmail.getText().toString();
+            password = txtPassword.getText().toString();
 
             if (email.equals("1@gmail.com") && password.equals("teste123")){
                 SharedPreferences.Editor editor = pref.edit();

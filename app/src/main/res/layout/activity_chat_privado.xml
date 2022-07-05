@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="413dp"
+        android:layout_width="435dp"
         android:layout_height="123dp"
         android:background="#0A3354"
         android:contentDescription="@string/todo"
@@ -35,20 +35,20 @@
 
     <Button
         android:id="@+id/btnVoltar_"
-        android:layout_width="48dp"
-        android:layout_height="57dp"
+        android:layout_width="72dp"
+        android:layout_height="54dp"
         android:backgroundTint="#0a3354"
-        android:drawableLeft="@drawable/ic_back"
+        android:drawableEnd="@drawable/ic_back"
         android:rotation="0"
         android:stateListAnimator="@null"
         android:text="V"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.057"
+        app:layout_constraintVertical_bias="0.056"
         tools:ignore="HardcodedText,RtlHardcoded" />
 
     <ImageView
@@ -79,9 +79,10 @@
         app:layout_constraintVertical_bias="0.054" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="397dp"
-        android:layout_height="556dp"
-        app:layout_constraintBottom_toTopOf="@+id/txtMensagem"
+        android:id="@+id/constraintLayout"
+        android:layout_width="365dp"
+        android:layout_height="518dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
@@ -90,13 +91,13 @@
 
         <ScrollView
             android:id="@+id/ScrollViewMessages"
-            android:layout_width="339dp"
-            android:layout_height="535dp"
+            android:layout_width="361dp"
+            android:layout_height="517dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.523"
+            app:layout_constraintVertical_bias="1.0"
             tools:ignore="SpeakableTextPresentCheck">
 
             <LinearLayout
@@ -107,30 +108,55 @@
 
             </LinearLayout>
         </ScrollView>
+
+        <Button
+            android:id="@+id/btnIrMsgRecente"
+            android:layout_width="59dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="-5dp"
+            android:backgroundTint="#80FFFFFF"
+            android:drawableBottom="@drawable/ic_baseline_keyboard_arrow_down_24"
+            android:rotation="0"
+            android:stateListAnimator="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="413dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/custom_rect2" />
 
 
     <EditText
         android:id="@+id/txtMensagem"
-        android:layout_width="350dp"
-        android:layout_height="52dp"
+        android:layout_width="278dp"
+        android:layout_height="50dp"
         android:autofillHints=""
         android:background="@drawable/custom_input_msg"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.998"
+        app:layout_constraintVertical_bias="0.966"
         tools:ignore="LabelFor,SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btnEnviarMsg"
-        android:layout_width="49dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="@string/aa"
         android:drawableLeft="@drawable/ic_send"
@@ -138,11 +164,39 @@
         android:rotationX="0"
         android:stateListAnimator="@null"
         android:textColor="#ABB5BE"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/txtMensagem"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/txtMensagem"
-        app:layout_constraintTop_toTopOf="@+id/txtMensagem"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toEndOf="@+id/txtMensagem"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.965"
         tools:ignore="RtlHardcoded,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="431dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/custom_rect" />
+
+    <Button
+        android:id="@+id/btnGaleria"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/ENOVO_cinza_claro"
+        android:drawableRight="@drawable/ic_baseline_image_24"
+        android:stateListAnimator="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.965"
+        tools:ignore="SpeakableTextPresentCheck" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

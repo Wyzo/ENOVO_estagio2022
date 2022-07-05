@@ -23,4 +23,10 @@
     <string name="editar_dados">Editar dados</string>
     <string name="seja_bem_vindo">Seja bem-vindo</string>
     <string name="email">Email</string>
+    <string name="j_possui_uma_conta">Já possui uma conta?</string>
+    <string name="ola">Olá!</string>
+    <string name="seja_bem_vindo_de_volta">Seja bem-vindo de volta</string>
+    <string name="Contactos" />
+    <string name="contactos">Contactos</string>
+    <string name="olaa">Olá!</string>
 </resources>

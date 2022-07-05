@@ -5,12 +5,18 @@
       <map>
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2555" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/bottom_left_corner_image.xml" value="0.187" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/btn_laranja_gradient.xml" value="0.12" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/btn_rounded.xml" value="0.2555" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/custom_input.xml" value="0.187" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/custom_input_msg.xml" value="0.2545" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/custom_message_background_emissor.xml" value="0.2545" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/custom_rect.xml" value="0.2545" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/custom_rect2.xml" value="0.2315" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/custom_rect_2.xml" value="0.2315" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/custom_rect_3.xml" value="0.2545" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/custom_rect_msgporler.xml" value="0.1795" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/ic_back.xml" value="0.2555" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.2555" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/ic_chat.xml" value="0.2555" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/ic_contactos.xml" value="0.2555" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/ic_email.xml" value="0.2555" />
@@ -22,15 +28,19 @@
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/linha_separadora.xml" value="0.1575" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/msg_background.xml" value="0.2555" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/msg_background_recetor.xml" value="0.2555" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/notificacoes.xml" value="0.2315" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/rounded_corners.xml" value="0.2315" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/teste.xml" value="0.1575" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/drawable/teste_background.xml" value="0.2555" />
-        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout-v23/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout-v23/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_adicionar.xml" value="0.264" />
-        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_chat_privado.xml" value="0.264" />
-        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_contactos.xml" value="0.4" />
-        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_chat_privado.xml" value="0.176" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_contactos.xml" value="0.152" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_criar_conta.xml" value="0.264" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_full_screen.xml" value="0.24615384615384617" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_main2.xml" value="0.25" />
-        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_mensagens.xml" value="0.264" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_mensagens.xml" value="0.176" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_mensagens2.xml" value="0.25" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_perfil.xml" value="0.264" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/Enovo_FranciscoDuarte_ESTAGIO_2022/app/src/main/res/layout/activity_teste.xml" value="0.25" />

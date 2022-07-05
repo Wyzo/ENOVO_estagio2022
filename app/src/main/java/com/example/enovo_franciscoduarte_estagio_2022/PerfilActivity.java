@@ -11,10 +11,19 @@ import android.provider.MediaStore;
 import android.util.TypedValue;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class PerfilActivity extends AppCompatActivity {
+
+    Button btnVoltar;
+    String email, password, nome;
+    EditText emailTXT, passwordTXT, nomeTXT;
+    ImageView imagem;
+    TextView sair;
+    Intent intent, paginaLogin, mensagens;
+    Uri selected_image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,19 +31,31 @@ public class PerfilActivity extends AppCompatActivity {
         setContentView(R.layout.activity_perfil);
         SharedPreferences pref = getSharedPreferences("user_details",MODE_PRIVATE);
 
-        Button btnVoltar = findViewById(R.id.btnVoltar_);
+        btnVoltar = findViewById(R.id.btnVoltar_);
         btnVoltar.setOnClickListener(irMsgs());
 
-        ImageView imagem = findViewById(R.id.imgPerfil);
+        email = pref.getString("email", null);
+        password = pref.getString("password", null);
+        nome = pref.getString("id", null);
+
+        emailTXT = findViewById(R.id.emailTextBox);
+        passwordTXT = findViewById(R.id.passwordTextBox);
+        nomeTXT = findViewById(R.id.nomeText);
+
+        emailTXT.setText(email);
+        passwordTXT.setText(password);
+        nomeTXT.setText(nome);
+
+        imagem = findViewById(R.id.imgPerfil);
         imagem.setOnClickListener(v -> {
-            Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+            intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
             startActivityForResult(intent, 3);
         });
 
-        TextView sair = findViewById(R.id.btnSair);
+        sair = findViewById(R.id.btnSair);
 
         sair.setOnClickListener(v -> {
-            Intent paginaLogin = new Intent(this, MainActivity.class);
+            paginaLogin = new Intent(this, MainActivity.class);
             @SuppressLint("CommitPrefEdits") SharedPreferences.Editor editor = pref.edit();
 
             editor.remove("email");
@@ -51,7 +72,7 @@ public class PerfilActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if(resultCode == RESULT_OK && data != null){
-            Uri selected_image = data.getData();
+            selected_image = data.getData();
 
             int value2 = 164;
             int valorDP = (int) TypedValue.applyDimension(
@@ -59,7 +80,7 @@ public class PerfilActivity extends AppCompatActivity {
                     value2,
                     this.getResources().getDisplayMetrics());
 
-            ImageView imagem = findViewById(R.id.imgPerfil);
+            imagem = findViewById(R.id.imgPerfil);
 
             imagem.getLayoutParams().width = valorDP;
             imagem.getLayoutParams().height = valorDP;
@@ -69,7 +90,7 @@ public class PerfilActivity extends AppCompatActivity {
 
     public View.OnClickListener irMsgs(){
         return v -> {
-            Intent mensagens = new Intent(this, MensagensActivity.class);
+            mensagens = new Intent(this, MensagensActivity.class);
             startActivity(mensagens);
         };
     }
